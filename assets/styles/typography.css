@@ -1,0 +1,62 @@
+.nav__button-main,
+.nav__user-option-individual-text {
+    font-family: "Quicksand", sans-serif;
+}
+
+
+.nav__user-option-individual-text {
+    color: #213343;
+    font-size: 0.77rem;
+    font-weight: 800;
+
+}
+
+.nav--main .nav__user-option-individual-text {
+    font-size: 1.11rem;
+    font-weight: bold;
+}
+
+.nav__button-main {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav__button-main--started {
+    color: #ff5c35;
+}
+
+.nav__user-option-search-icon {
+    color: #0068b1;
+}
+
+.section__banner-elements-middle {
+    color: #213343;
+    font-family: "Quicksand", sans-serif;
+}
+
+.section__pre-title-banner {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section__title-banner {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 1.13;
+    font-family: "DM Serif Text", serif;
+}
+
+.section__text-after-header-banner {
+    line-height: 1.7;
+}
+
+.section__text-after-buttons-banner {
+    font-size: 14px;
+}
+
+.section__button-get .nav__button-main {
+    font-size: 1.1rem;
+}

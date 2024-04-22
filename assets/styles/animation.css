@@ -1,0 +1,29 @@
+input:checked + .button__nav-option-icon-switch-slide {
+    background-color: #180bb1;
+    border: #180bb1 solid 1px;
+  }
+
+  input:checked + .button__nav-option-icon-switch-slide:before {
+    background: #fff;
+    border: #180bb1 solid 1px;
+    left: calc(90% - (var(--size-of-icon) + var(--slider-offset)));
+  }
+
+  .nav__button-main:hover {
+    background-color: #e04826;
+    border: #e04826 2px solid;
+  }
+
+  .nav__button-main:active {
+    background-color: #b3361d;
+    border: #b3361d 2px solid;
+  }
+
+  .nav__button-main--started:hover {
+    background-color: #ffebe6;
+  }
+
+.nav__button-main--started:active {
+    background-color: #ffcec2;
+    border: #b3361d 2px solid;
+  }
